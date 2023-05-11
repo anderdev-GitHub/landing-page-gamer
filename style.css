@@ -2,12 +2,103 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
     background: #01295e;
 }
 
+img {
+    width: 100%;
+}
+
 h1 {
     color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 24px;
+    margin: 30px;
+    color: #ffffff;
+}
+
+input {
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 50px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 100px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.botão-abrir {
+    display: flex;
+    justify-content: center;
+}
+
+.botão-abrir button  {
+    background: #40bb15;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 174px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.botao-enviar {
+    background: #40bb15;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 174px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.botao-voltar {
+    background: #535353;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 174px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+div {
+    transition: opacity 1s;
 }

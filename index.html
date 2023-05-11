@@ -5,23 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page │ Games Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <img src="./assets/background-gamer.png" alt="Background Gamer">
+    <div>
+        <img src="./assets/background-gamer.png" alt="Background Gamer">
 
-    <h1>O que você encontra aqui</h1>
+        <h1>O que você encontra aqui</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nostrum ipsam sit et harum
-        asperiores molestiae ipsa similique perferendis enim, quos commodi modi! Natus sit accusamus porro harum quos.
-    </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nostrum ipsam sit et harum
+            asperiores molestiae ipsa similique perferendis enim, quos commodi modi! Natus sit accusamus porro harum
+            quos.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nostrum ipsam sit et harum
+            asperiores molestiae ipsa similique perferendis enim, quos commodi modi! Natus sit accusamus porro harum
+            quos.
+        </p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa quo quaerat tempore? Reiciendis, possimus,
-        culpa delectus eaque, vel eius laboriosam quos ratione aut consequatur nesciunt amet explicabo nostrum beatae.
-    </p>
-    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa quo quaerat tempore? Reiciendis, possimus,
+            culpa delectus eaque, vel eius laboriosam quos ratione aut consequatur nesciunt amet explicabo nostrum
+            beatae.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nostrum ipsam sit et harum
+            asperiores molestiae ipsa similique perferendis enim, quos commodi modi! Natus sit accusamus porro harum
+            quos.
+        </p>
+        <div class="botão-abrir">
+        <button onclick="abrir()">Entrar em contato</button>
+        </div>
+    </div>
+
+    <form action="https://formsubmit.co/emaildocliente@exemplo.com" method="POST">
+        <input type="text" name="name" required placeholder="Nome">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea type="text" name="duvida" placeholder="Sua dúvida aqui"></textarea>
+        <button class="botao-enviar" type="submit">Enviar</button>
+        <button onclick="fechar()" class="botao-voltar" type="button">Voltar</button>
+    </form>
+
 </body>
+<script>
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("div").style.opacity = 0.2
+    }
+
+    function fechar() {
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("div").style.opacity = 1
+    }
+</script>
 
 </html>
