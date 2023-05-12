@@ -2,13 +2,14 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page │ Games Club</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon-anderson-leite.ico">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -18,32 +19,35 @@
 
         <h1>O que você encontra aqui</h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nostrum ipsam sit et harum
-            asperiores molestiae ipsa similique perferendis enim, quos commodi modi! Natus sit accusamus porro harum
-            quos.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nostrum ipsam sit et harum
-            asperiores molestiae ipsa similique perferendis enim, quos commodi modi! Natus sit accusamus porro harum
-            quos.
+        <p>Bem-vindo ao clube dos jogos, onde a diversão nunca termina! Junte-se a nós e experimente uma experiência
+            emocionante de jogos. O Games Club é o lugar onde os amantes de jogos se reúnem para competir, aprender e se
+            divertir. Venha jogar conosco e explore as possibilidades intermináveis de jogos!
         </p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa quo quaerat tempore? Reiciendis, possimus,
-            culpa delectus eaque, vel eius laboriosam quos ratione aut consequatur nesciunt amet explicabo nostrum
-            beatae.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis nostrum ipsam sit et harum
-            asperiores molestiae ipsa similique perferendis enim, quos commodi modi! Natus sit accusamus porro harum
-            quos.
+        <p>É hora de apertar os botões e se preparar para a ação! No Games Club, temos jogos para todos os gostos, desde
+            os clássicos até os mais modernos. Você pode jogar com seus amigos ou conhecer novas pessoas com interesses
+            semelhantes. Então, por que esperar? Venha jogar conosco e descubra novos mundos de jogos emocionantes.
         </p>
+
+        <p>Se você é um jogador ávido ou um novato, o Games Club é o lugar certo para você. Com uma ampla seleção de
+            jogos de alta qualidade e uma comunidade acolhedora, estamos prontos para receber jogadores de todas as
+            habilidades. Não importa se você prefere jogos de ação, estratégia ou quebra-cabeças, temos algo para todos.
+            Venha jogar conosco e desafie suas habilidades de jogo!
+        </p>
+
         <div class="botão-abrir">
-        <button onclick="abrir()">Entrar em contato</button>
+            <button onclick="abrir()">Faça parte você também!</button>
         </div>
     </div>
 
     <form action="https://formsubmit.co/emaildocliente@exemplo.com" method="POST">
-        <input type="text" name="name" required placeholder="Nome">
-        <input type="email" name="email" required placeholder="Email">
-        <textarea type="text" name="duvida" placeholder="Sua dúvida aqui"></textarea>
-        <button class="botao-enviar" type="submit">Enviar</button>
-        <button onclick="fechar()" class="botao-voltar" type="button">Voltar</button>
+        <input type="text" name="name" required placeholder="Seu nome">
+        <input type="email" name="email" required placeholder="seuemail@exemplo.com">
+        <textarea type="text" name="duvida" placeholder="Sua mensagem aqui."></textarea>
+        <div class="botoes-form">
+            <button class="botao-enviar" type="submit">Enviar</button>
+            <button onclick="fechar()" class="botao-voltar" type="button">Voltar</button>
+        </div>
     </form>
 
 </body>

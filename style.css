@@ -6,7 +6,8 @@
 }
 
 body {
-    background: #01295e;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(32,94,1,1) 100%);
 }
 
 img {
@@ -57,24 +58,35 @@ form {
     transition: opacity 1s;
 }
 
+::placeholder {
+    padding-left: 20px;
+}
+
 .botão-abrir {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .botão-abrir button  {
-    background: #918bffb9;
+    background: #205e01;
     border: none;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
-    width: 174px;
+    width: 200px;
     cursor: pointer;
     color: #ffffff;
 }
 
+.botoes-form {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
 .botao-enviar {
-    background: #918bffb9;
+    background: #205e01;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -102,3 +114,4 @@ button:hover {
 div {
     transition: opacity 1s;
 }
+
