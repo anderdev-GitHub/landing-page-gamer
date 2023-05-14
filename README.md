@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="#house-Sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
