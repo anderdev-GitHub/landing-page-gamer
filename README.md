@@ -14,7 +14,7 @@
 
 <br>
 
-<img alt="Layout" src="">
+<img alt="Layout" src="https://github.com/anderdev-GitHub/landing-page-gamer/blob/b2336ba1d5e93ac3b206659b3064e8a17c928259/assets/project-img.png">
 <br>
 
 
