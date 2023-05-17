@@ -14,9 +14,12 @@
 </head>
 
 <body>
-    <div>
-        <img src="./assets/background-gamer.png" alt="Background Gamer">
+    <header>
+        <img class="background-principal" src="./assets/background-gamer.png" alt="Background Gamer">
+    </header>
+    <div class="border-header"></div>
 
+    <main>
         <h1>O que você encontra aqui</h1>
 
         <p>Bem-vindo ao clube dos jogos, onde a diversão nunca termina! Junte-se a nós e experimente uma experiência
@@ -38,7 +41,7 @@
         <div class="botão-abrir">
             <button onclick="abrir()">Faça parte você também!</button>
         </div>
-    </div>
+    </main>
 
     <form action="https://formsubmit.co/emaildocliente@exemplo.com" method="POST">
         <input type="text" name="name" required placeholder="Seu nome">
@@ -49,6 +52,13 @@
             <button onclick="fechar()" class="botao-voltar" type="button">Voltar</button>
         </div>
     </form>
+    <footer>
+        Feito com ♥ por <a href="https://www.instagram.com/_anderdev" target="_blank">@_anderdev <ion-icon
+                name="logo-instagram"></ion-icon> </a>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <script src="script.js"></script>
 </body>

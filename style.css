@@ -5,13 +5,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
+:root {
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(32,94,1,1) 100%);
+    min-height: 100vh;
 }
 
-img {
+.background-principal {
     width: 100%;
+}
+
+.border-header {
+    height: 10px;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 }
 
 h1 {
@@ -21,8 +27,9 @@ h1 {
 }
 
 p {
+    text-align: justify;
     font-size: 24px;
-    margin: 30px;
+    margin: 40px;
     color: #ffffff;
 }
 
@@ -47,7 +54,7 @@ textarea {
 }
 
 form {
-    background: #ffffff;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
     padding: 20px;
     position: fixed;
     top: 50%;
@@ -111,7 +118,35 @@ button:hover {
     opacity: 0.8;
 }
 
-div {
+main {
     transition: opacity 1s;
+}
+
+footer {
+
+    padding: 4px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a ion-icon[name="logo-instagram"] {
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: -10%;
+}
+
+footer a:hover {
+    font-weight: 600;
+    background: -webkit-linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
